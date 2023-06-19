@@ -1,6 +1,6 @@
 class Customer::ProductsController < ApplicationController
   def index
-    @product, @sort = get_products(params)
+    @products, @sort = get_products(params)
   end
 
   def show
