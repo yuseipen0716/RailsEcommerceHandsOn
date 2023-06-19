@@ -7,5 +7,5 @@ class Product < ApplicationRecord
     validates :image
   end
 
-  has_one_attatched :image
+  has_one_attached :image
 end
