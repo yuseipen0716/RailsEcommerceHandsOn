@@ -5,4 +5,6 @@ class Product < ApplicationRecord
     validates :price
     validates :stock
   end
+
+  has_one_attatched :image
 end
