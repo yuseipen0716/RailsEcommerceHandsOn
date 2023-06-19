@@ -10,8 +10,8 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :products, only: %i[index show new create edit update]
   end
-  namespace :customer do
-    resources :products, only: %[index show]
+  scope module: :customer do
+    resources :products, only: %i[index show]
   end
 
   get '/up/', to: 'up#index', as: :up
