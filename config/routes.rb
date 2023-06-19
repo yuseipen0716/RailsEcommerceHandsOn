@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   }
   root to: 'pages#home'
   namespace :admin do
-    resources :products, only: %i[index show new create update]
+    resources :products, only: %i[index show new create edit update]
   end
 
   get '/up/', to: 'up#index', as: :up
