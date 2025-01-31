@@ -1,4 +1,4 @@
-# An example Rails + Docker appaaaaaa
+# An example Rails + Docker app
 
 ![CI](https://github.com/nickjj/docker-rails-example/workflows/CI/badge.svg?branch=main)
 
